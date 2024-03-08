@@ -5,20 +5,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.7.1.js"
-        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <title>kaf</title>
 </head>
 
 <body>
     <header id="headerContainer"></header>
+    <main class="main-wrapper site-wrapper">
+        <div class="main-content">
+            <p class="m-24" style="color: var(--gary-400);font-size: 18px;">Design / Logo Design</p>
+            <h1 class="m-24" style="font-size:24px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi,
+                cras neque
+                Lorem ipsum dolor sit
+                amet, </h1>
+            <div class="m-40" style="display: flex;justify-content: space-between;">
+                <div class="rating">
+                    <div id="rating-container"></div>
+                    <span>4.1 (500)</span>
+                </div>
+                <div class="share-heart-icons">
+                    <img src="./assets/images/ShareNetwork.svg" alt="Share">
+                    <img src="./assets/images/Heart.svg" alt="Heart">
+                </div>
 
+            </div>
+
+            <div class="owl-carousel owl-theme m-40">
+                <div class="item"><img src="./assets/images/slider.png" alt="Image 1"></div>
+            </div>
+            <p class="title m-24">Description</p>
+            <div class="content-section m-40">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum dolor sit
+                    amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
+                    dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem
+                    ipsum dolor sit amet, Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Diam nisi, cras neque Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                <p class="title m-24">Service Add-Ons</p>
+                <div style="display: flex; align-items: center; gap: 5px;">
+                    <img src="./assets/images/selectAll.svg" alt="selectAll" width="16px">
+                    <span style="color: var(--gary-300); font-size: 15px;">Select All</span>
+                </div>
+            </div>
+            <div class="content-section m-16">
+                <div style="align-items: flex-start;" class="m-24 flex">
+                    <img style="width: 22px; margin-right: 10px;" src="./assets/images/checked.svg" alt="checked">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
+                        dolor sit amet, Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="flex" style="gap:10px;">
+                    <p class="price-tag">$100</p>
+                    <p class="price-tag">2 days</p>
+                </div>
+            </div>
+            <div class="content-section m-16">
+                <div style="align-items: flex-start;" class="m-24 flex">
+                    <img style="width: 22px; margin-right: 10px;" src="./assets/images/not-checked.svg"
+                        alt="not-checked">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
+                        dolor sit amet, Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="flex" style="gap:10px;">
+                    <p class="price-tag">$100</p>
+                    <p class="price-tag">2 days</p>
+                </div>
+            </div>
+            <div class="content-section m-16">
+                <div style="align-items: flex-start;" class="m-24 flex">
+                    <img style="width: 22px; margin-right: 10px;" src="./assets/images/not-checked.svg"
+                        alt="not-checked">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
+                        dolor sit amet, Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="flex" style="gap:10px;">
+                    <p class="price-tag">$100</p>
+                    <p class="price-tag">2 days</p>
+                </div>
+            </div>
+            <p class="title m-24">Purchase Service</p>
+            <div class="content-section" style="margin-bottom: 100px;">
+                <div class="flex" style="justify-content: space-between;">
+                    <div style="display: flex; gap: 5px;">
+                        <div class="counter"><button>-</button> 3 <button>+</button></div>
+                        <div class="price">$300</div>
+                    </div>
+                    <button>Purchase</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <aside class="side-content">
+            <div class="content-section">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum dolor sit
+                    amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+
+        </aside>
+    </main>
     <script src="script.js"></script>
 </body>
 

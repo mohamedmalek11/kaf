@@ -1,7 +1,12 @@
 :root {
+  --primary-100: #e9f9f1;
   --primary-900: #1dbf73;
+  --gary-50: #f6f6f6;
   --gary-300: #c3c5c8;
+  --gary-400: #8692a6;
+  --gary-500: #696f79;
   --white: #ffffff;
+  --radius-8: 8px;
 }
 
 body {
@@ -66,5 +71,62 @@ p {
   color: var(--primary-900) !important;
 }
 .header-actions > * {
-width: 33px;
+  width: 33px;
+}
+.main-wrapper {
+  display: flex;
+  margin-top: 60px;
+}
+.main-content {
+  flex: 7;
+}
+.side-content {
+  flex: 2;
+  margin-left: 40px;
+}
+.m-16 {
+  margin-bottom: 16px;
+}
+.m-24 {
+  margin-bottom: 24px;
+}
+.m-40 {
+  margin-bottom: 40px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  color: var(--gary-500);
+}
+.share-heart-icons {
+  display: flex;
+  gap: 10px;
+}
+.share-heart-icons img {
+  width: 25px;
+}
+.item img {
+  border-radius: var(--radius-8);
+}
+.title {
+  font-size: 24px;
+}
+.content-section {
+  border-radius: 15px;
+  padding: 25px 15px;
+  background-color: var(--white);
+  box-shadow: #2020200d 10px 3px 40px -5px, #2020200d -10px -3px 40px -5px;
+}
+.price-tag {
+  padding: 7px;
+  color: var(--primary-900);
+  background-color: var(--primary-100);
+  border-radius: var(--radius-8);
+}
+.price {
+  padding: 5px 40px;
+  background-color: var(--gary-50);
+  border-radius: var(--radius-8);
 }
