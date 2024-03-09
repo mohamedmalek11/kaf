@@ -2,10 +2,13 @@
   --primary-100: #e9f9f1;
   --primary-900: #1dbf73;
   --gary-50: #f6f6f6;
+  --gary-200: #e6eaef;
   --gary-300: #c3c5c8;
   --gary-400: #8692a6;
   --gary-500: #696f79;
+  --gary-800: #333333;
   --white: #ffffff;
+  --warning-300: #ffcb31;
   --radius-8: 8px;
 }
 
@@ -79,6 +82,7 @@ p {
 }
 .main-content {
   flex: 7;
+  width: 100%;
 }
 .side-content {
   flex: 2;
@@ -117,7 +121,8 @@ p {
   border-radius: 15px;
   padding: 25px 15px;
   background-color: var(--white);
-  box-shadow: #2020200d 10px 3px 40px -5px, #2020200d -10px -3px 40px -5px;
+  /* box-shadow: #2020200d 10px 3px 40px -5px, #2020200d -10px -3px 40px -5px; */
+  box-shadow: #2020200d -15px -10px 40px -5px, #2020200d 16px 7px 40px -5px;
 }
 .price-tag {
   padding: 7px;
@@ -126,7 +131,172 @@ p {
   border-radius: var(--radius-8);
 }
 .price {
-  padding: 5px 40px;
+  padding: 7px 50px;
   background-color: var(--gary-50);
   border-radius: var(--radius-8);
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 550px;
+  min-width: 100px;
+  padding: 0px 10px;
+  justify-content: center;
+  background-color: var(--gary-50);
+  border-radius: var(--radius-8);
+}
+.counter p {
+  text-align: center;
+  max-width: 100px;
+  width: 100%;
+}
+.counter button {
+  color: var(--primary-900);
+  background-color: var(--white);
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter button img {
+  width: 12px;
+  height: auto;
+}
+.purchase-button {
+  background-color: var(--primary-900);
+  color: var(--white);
+  border-radius: var(--radius-8);
+  max-width: 150px;
+  width: 100%;
+}
+.service-rate {
+  display: flex;
+  justify-content: space-between;
+}
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: var(--gary-200);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.progress {
+  background-color: var(--warning-300);
+  height: 8px;
+  border-radius: 8px 0px 0px 8px;
+}
+.rating-container {
+  flex-wrap: nowrap;
+  display: flex;
+}
+.review-wrapper {
+  display: block;
+}
+.review-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.review-title {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.review-stars svg {
+  width: 18px;
+  margin-right: 3px;
+}
+.review-text {
+  font-size: 15px;
+  color: var(--gary-800);
+  line-height: 1.3;
+}
+#add-review {
+  width: 95%;
+  outline: none;
+  border: none;
+  background: var(--gary-50);
+  border-radius: var(--radius-8);
+  padding: 20px 10px;
+  resize: none;
+  font-family: "Montserrat", sans-serif;
+  color: var(--gary-400);
+}
+.review-form {
+  width: 100%;
+}
+.add-review-button {
+  background-color: var(--primary-900);
+  color: var(--white);
+  border-radius: var(--radius-8);
+  padding: 10px 30px;
+}
+.suggested-services-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 285px));
+  justify-content: space-between;
+}
+.services-item {
+  position: relative;
+  border-radius: var(--radius-8);
+  box-shadow: #2020200d 7px -20px 40px 11px, #2020200d 8px 17px 40px 0px;
+  overflow: hidden;
+}
+.service-image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  aspect-ratio: 1.2;
+}
+.service-description {
+  padding: 16px 13px;
+}
+.service-description .service-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+.service-data {
+  display: flex;
+  color: var(--gary-400);
+  font-size: 12px;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.service-provider-image {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.service-price-tag {
+  width: 18px;
+  margin-right: 5px;
+}
+.service-provider-title {
+  font-size: 13px;
+  font-weight: 500;
+}
+.service-price-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.add-favorite {
+  position: absolute;
+  top: 10px;
+  left: 11px;
+  z-index: 1;
+  padding: 6px;
+  background-color: var(--white);
+  border-radius: 50%;
+  width: 22px;
+  aspect-ratio: 1;
 }

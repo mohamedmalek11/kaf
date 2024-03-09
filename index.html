@@ -22,97 +22,351 @@
 
 <body>
     <header id="headerContainer"></header>
-    <main class="main-wrapper site-wrapper">
-        <div class="main-content">
-            <p class="m-24" style="color: var(--gary-400);font-size: 18px;">Design / Logo Design</p>
-            <h1 class="m-24" style="font-size:24px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi,
-                cras neque
-                Lorem ipsum dolor sit
-                amet, </h1>
-            <div class="m-40" style="display: flex;justify-content: space-between;">
-                <div class="rating">
-                    <div id="rating-container"></div>
-                    <span>4.1 (500)</span>
-                </div>
-                <div class="share-heart-icons">
-                    <img src="./assets/images/ShareNetwork.svg" alt="Share">
-                    <img src="./assets/images/Heart.svg" alt="Heart">
-                </div>
-
-            </div>
-
-            <div class="owl-carousel owl-theme m-40">
-                <div class="item"><img src="./assets/images/slider.png" alt="Image 1"></div>
-            </div>
-            <p class="title m-24">Description</p>
-            <div class="content-section m-40">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum dolor sit
-                    amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
-                    dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem
-                    ipsum dolor sit amet, Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit. Diam nisi, cras neque Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                <p class="title m-24">Service Add-Ons</p>
-                <div style="display: flex; align-items: center; gap: 5px;">
-                    <img src="./assets/images/selectAll.svg" alt="selectAll" width="16px">
-                    <span style="color: var(--gary-300); font-size: 15px;">Select All</span>
-                </div>
-            </div>
-            <div class="content-section m-16">
-                <div style="align-items: flex-start;" class="m-24 flex">
-                    <img style="width: 22px; margin-right: 10px;" src="./assets/images/checked.svg" alt="checked">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
-                        dolor sit amet, Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="flex" style="gap:10px;">
-                    <p class="price-tag">$100</p>
-                    <p class="price-tag">2 days</p>
-                </div>
-            </div>
-            <div class="content-section m-16">
-                <div style="align-items: flex-start;" class="m-24 flex">
-                    <img style="width: 22px; margin-right: 10px;" src="./assets/images/not-checked.svg"
-                        alt="not-checked">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
-                        dolor sit amet, Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="flex" style="gap:10px;">
-                    <p class="price-tag">$100</p>
-                    <p class="price-tag">2 days</p>
-                </div>
-            </div>
-            <div class="content-section m-16">
-                <div style="align-items: flex-start;" class="m-24 flex">
-                    <img style="width: 22px; margin-right: 10px;" src="./assets/images/not-checked.svg"
-                        alt="not-checked">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
-                        dolor sit amet, Lorem ipsum dolor sit amet.</p>
-                </div>
-                <div class="flex" style="gap:10px;">
-                    <p class="price-tag">$100</p>
-                    <p class="price-tag">2 days</p>
-                </div>
-            </div>
-            <p class="title m-24">Purchase Service</p>
-            <div class="content-section" style="margin-bottom: 100px;">
-                <div class="flex" style="justify-content: space-between;">
-                    <div style="display: flex; gap: 5px;">
-                        <div class="counter"><button>-</button> 3 <button>+</button></div>
-                        <div class="price">$300</div>
+    <main class="site-wrapper">
+        <div class="main-wrapper">
+            <div class="main-content">
+                <p class="m-24" style="color: var(--gary-400);font-size: 18px;">Design / Logo Design</p>
+                <h1 class="m-24" style="font-size:24px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                    nisi,
+                    cras neque
+                    Lorem ipsum dolor sit
+                    amet, </h1>
+                <div class="m-40" style="display: flex;justify-content: space-between;">
+                    <div class="rating">
+                        <div class="rating-container" data-value=4></div>
+                        <span>4.1 (500)</span>
                     </div>
-                    <button>Purchase</button>
+                    <div class="share-heart-icons">
+                        <img src="./assets/images/ShareNetwork.svg" alt="Share">
+                        <img src="./assets/images/Heart.svg" alt="Heart">
+                    </div>
+
+                </div>
+
+                <div class="owl-carousel owl-theme m-40">
+                    <div class="item"><img src="./assets/images/slider.png" alt="Image 1"></div>
+                </div>
+                <p class="title m-24">Description</p>
+                <div class="content-section m-40">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum dolor
+                        sit
+                        amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
+                        dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque
+                        Lorem
+                        ipsum dolor sit amet, Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit. Diam nisi, cras neque Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                    <p class="title m-24">Service Add-Ons</p>
+                    <div style="display: flex; align-items: center; gap: 5px;">
+                        <img src="./assets/images/selectAll.svg" alt="selectAll" width="16px">
+                        <span style="color: var(--gary-300); font-size: 15px;">Select All</span>
+                    </div>
+                </div>
+                <div class="content-section m-16">
+                    <div style="align-items: flex-start;" class="m-24 flex">
+                        <img style="width: 22px; margin-right: 10px;" src="./assets/images/checked.svg" alt="checked">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
+                            dolor sit amet, Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="flex" style="gap:10px;">
+                        <p class="price-tag">$100</p>
+                        <p class="price-tag">2 days</p>
+                    </div>
+                </div>
+                <div class="content-section m-16">
+                    <div style="align-items: flex-start;" class="m-24 flex">
+                        <img style="width: 22px; margin-right: 10px;" src="./assets/images/not-checked.svg"
+                            alt="not-checked">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
+                            dolor sit amet, Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="flex" style="gap:10px;">
+                        <p class="price-tag">$100</p>
+                        <p class="price-tag">2 days</p>
+                    </div>
+                </div>
+                <div class="content-section m-40">
+                    <div style="align-items: flex-start;" class="m-24 flex">
+                        <img style="width: 22px; margin-right: 10px;" src="./assets/images/not-checked.svg"
+                            alt="not-checked">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
+                            dolor sit amet, Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="flex" style="gap:10px;">
+                        <p class="price-tag">$100</p>
+                        <p class="price-tag">2 days</p>
+                    </div>
+                </div>
+                <p class="title m-24">Purchase Service</p>
+                <div class="content-section" style="margin-bottom: 100px;">
+                    <div class="flex" style="justify-content: space-between;">
+                        <div style="display: flex; gap: 5px; width: 100%; padding-right: 10%;">
+                            <div class="counter">
+                                <button>
+                                    <img src="./assets/images/minus.svg" alt="minus">
+                                </button>
+                                <p>3</p>
+                                <button>
+                                    <img src="./assets/images/plus.svg" alt="plus">
+                                </button>
+                            </div>
+                            <div class="price">$300</div>
+                        </div>
+                        <button class="purchase-button">Purchase</button>
+                    </div>
+                </div>
+                <p class="title m-24"><span><img src="./assets/images/star.svg" alt="star"></span> 4.6 Service Rating .
+                    46
+                    Ratings</p>
+                <div class="content-section m-16">
+                    <div class="m-24 service-rate">
+                        <div style="align-items: center; gap:10px; flex: 1;" class="flex">
+                            <p>Work Quality</p>
+                            <img src="./assets/images/star.svg" style="width: 20px;" alt="star">
+                            <p>5.0</p>
+                        </div>
+                        <div style="align-items: center; gap:20px; flex: 1;" class="flex">
+                            <div class="rating-container" data-value=5></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 100%;"></div>
+                            </div>
+                            <p>5</p>
+                        </div>
+                    </div>
+                    <div class="m-24 service-rate">
+                        <div style="align-items: center; gap:10px; flex: 1;" class="flex">
+                            <p>Communication & Collaboration</p>
+                            <img src="./assets/images/star.svg" style="width: 20px;" alt="star">
+                            <p>4.0</p>
+                        </div>
+                        <div style="align-items: center; gap:20px; flex: 1;" class="flex">
+                            <div class="rating-container" data-value=4></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%;"></div>
+                            </div>
+                            <p>4</p>
+                        </div>
+                    </div>
+                    <div class="service-rate">
+                        <div style="align-items: center; gap:10px; flex: 1;" class="flex">
+                            <p>Adherence to Schedule</p>
+                            <img src="./assets/images/star.svg" style="width: 20px;" alt="star">
+                            <p>5.0</p>
+                        </div>
+                        <div style="align-items: center; gap:20px; flex: 1;" class="flex">
+                            <div class="rating-container" data-value=5></div>
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <p>5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-section m-40">
+                    <div style="align-items: flex-start;" class="m-24 flex">
+                        <img class="review-image" src="./assets/images/PosterAvatar.png" alt="avatar">
+                        <div class="review-wrapper">
+                            <p class="review-title">Jane Smith</p>
+                            <div class="flex m-16" style="align-items: center;">
+                                <div class="rating-container review-stars" data-value=4></div>
+                                <p style="font-size: 12px; color: var(--gary-400);"> . 30m</p>
+                            </div>
+                            <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi,
+                                cras
+                                neque Lorem ipsum
+                                dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipiscing elit.... Lorem ipsum
+                                dolor
+                                sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum dolor sit
+                                amet,Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+                        </div>
+                    </div>
+                    <div style="align-items: flex-start;" class="m-24 flex">
+                        <img class="review-image" src="./assets/images/PosterAvatar.png" alt="avatar">
+                        <div class="review-wrapper">
+                            <p class="review-title">Jane Smith</p>
+                            <div class="flex m-16" style="align-items: center;">
+                                <div class="rating-container review-stars" data-value=5></div>
+                                <p style="font-size: 12px; color: var(--gary-400);"> . 30m</p>
+                            </div>
+                            <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi,
+                                cras
+                                neque Lorem ipsum
+                                dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipiscing elit.... Lorem ipsum
+                                dolor
+                                sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum dolor sit
+                                amet,Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+                        </div>
+                    </div>
+                    <div style="align-items: flex-start;" class="m-24 flex">
+                        <img class="review-image" src="./assets/images/PosterAvatar.png" alt="avatar">
+                        <div class="review-wrapper">
+                            <p class="review-title">Jane Smith</p>
+                            <div class="flex m-16" style="align-items: center;">
+                                <div class="rating-container review-stars" data-value=3></div>
+                                <p style="font-size: 12px; color: var(--gary-400);"> . 30m</p>
+                            </div>
+                            <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi,
+                                cras
+                                neque Lorem ipsum
+                                dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipiscing elit.... Lorem ipsum
+                                dolor
+                                sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum dolor sit
+                                amet,Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+                        </div>
+                    </div>
+                    <div style="align-items: flex-start;" class="m-24 flex">
+                        <img class="review-image" style="margin-right: 15px;"
+                            src="./assets/images/Image Placeholder.png" alt="avatar">
+                        <div class=" review-form">
+                            <form action="">
+                                <textarea class="m-16" name="add-review" id="add-review" rows="7"
+                                    placeholder="Write your review in here"></textarea>
+                                <button class="add-review-button">Post Review</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="side-content">
+                <div class="content-section">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum dolor
+                        sit
+                        amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+            </aside>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <p class="title m-24">Suggested Services</p>
+            <p style="color: var(--gary-300); font-size: 15px;">see more</p>
+        </div>
+        <div class="suggested-services-grid m-40">
+            <div class="services-item">
+                <div class="favorit">
+                    <a href="#"><img class="add-favorite" src="./assets/images/Heart.svg" alt="Heart"></a>
+                </div>
+                <a href="#" class="service-image-container">
+                    <img class="service-image" src="./assets/images/slider.png" alt="service image">
+                </a>
+                <div class="service-description">
+                    <p class="service-title m-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    </p>
+                    <div class="service-data">
+                        <img src="./assets/images/star.svg" style="width: 17px;" alt="star">
+                        <p>4.9</p>
+                        <img src="./assets/images/ShoppingCartSimple.svg" style="width: 17px;"
+                            alt="ShoppingCart">
+                        <p>300</p>
+                    </div>
+                    <div class="service-price-wrapper">
+                        <div style="display: flex; align-items: center;">
+                            <img class="service-provider-image" src="./assets/images/PosterAvatar.png"
+                                alt="avatar">
+                            <p class="service-provider-title">Jane Smith</p>
+                        </div>
+                        <div style="display: flex; align-items: center;">
+                            <img class="service-price-tag" src="./assets/images/price-tag.svg"
+                                alt="price tag">
+                            <p class="service-provider-title">$10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services-item">
+                <div class="favorit">
+                    <a href="#"><img class="add-favorite" src="./assets/images/Heart.svg" alt="Heart"></a>
+                </div>
+                <a href="#" class="service-image-container">
+                    <img class="service-image" src="./assets/images/slider.png" alt="service image">
+                </a>
+                <div class="service-description">
+                    <p class="service-title m-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    </p>
+                    <div class="service-data">
+                        <img src="./assets/images/star.svg" style="width: 17px;" alt="star">
+                        <p>4.9</p>
+                        <img src="./assets/images/ShoppingCartSimple.svg" style="width: 17px;"
+                            alt="ShoppingCart">
+                        <p>300</p>
+                    </div>
+                    <div class="service-price-wrapper">
+                        <div style="display: flex; align-items: center;">
+                            <img class="service-provider-image" src="./assets/images/PosterAvatar.png"
+                                alt="avatar">
+                            <p class="service-provider-title">Jane Smith</p>
+                        </div>
+                        <div style="display: flex; align-items: center;">
+                            <img class="service-price-tag" src="./assets/images/price-tag.svg"
+                                alt="price tag">
+                            <p class="service-provider-title">$10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services-item">
+                <div class="favorit">
+                    <a href="#"><img class="add-favorite" src="./assets/images/Heart.svg" alt="Heart"></a>
+                </div>
+                <a href="#" class="service-image-container">
+                    <img class="service-image" src="./assets/images/slider.png" alt="service image">
+                </a>
+                <div class="service-description">
+                    <p class="service-title m-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    </p>
+                    <div class="service-data">
+                        <img src="./assets/images/star.svg" style="width: 17px;" alt="star">
+                        <p>4.9</p>
+                        <img src="./assets/images/ShoppingCartSimple.svg" style="width: 17px;"
+                            alt="ShoppingCart">
+                        <p>300</p>
+                    </div>
+                    <div class="service-price-wrapper">
+                        <div style="display: flex; align-items: center;">
+                            <img class="service-provider-image" src="./assets/images/PosterAvatar.png"
+                                alt="avatar">
+                            <p class="service-provider-title">Jane Smith</p>
+                        </div>
+                        <div style="display: flex; align-items: center;">
+                            <img class="service-price-tag" src="./assets/images/price-tag.svg"
+                                alt="price tag">
+                            <p class="service-provider-title">$10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services-item">
+                <div class="favorit">
+                    <a href="#"><img class="add-favorite" src="./assets/images/Heart.svg" alt="Heart"></a>
+                </div>
+                <a href="#" class="service-image-container">
+                    <img class="service-image" src="./assets/images/slider.png" alt="service image">
+                </a>
+                <div class="service-description">
+                    <p class="service-title m-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    </p>
+                    <div class="service-data">
+                        <img src="./assets/images/star.svg" style="width: 17px;" alt="star">
+                        <p>4.9</p>
+                        <img src="./assets/images/ShoppingCartSimple.svg" style="width: 17px;"
+                            alt="ShoppingCart">
+                        <p>300</p>
+                    </div>
+                    <div class="service-price-wrapper">
+                        <div style="display: flex; align-items: center;">
+                            <img class="service-provider-image" src="./assets/images/PosterAvatar.png"
+                                alt="avatar">
+                            <p class="service-provider-title">Jane Smith</p>
+                        </div>
+                        <div style="display: flex; align-items: center;">
+                            <img class="service-price-tag" src="./assets/images/price-tag.svg"
+                                alt="price tag">
+                            <p class="service-provider-title">$10</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-        <aside class="side-content">
-            <div class="content-section">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum dolor sit
-                    amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-            </div>
-
-        </aside>
     </main>
     <script src="script.js"></script>
 </body>
