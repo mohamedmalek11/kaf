@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "owl.carousel": "^2.3.4"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain kaf-project.surge.sh"
+    }
   }
 }
