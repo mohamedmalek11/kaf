@@ -42,7 +42,51 @@
             <div class="flex header-actions" style="gap: 15px;">
                 <img src="/assets/images/mainMenuIcons/Bell-1.svg" alt="Bell-1" />
                 <img src="/assets/images/mainMenuIcons/Bell.svg" alt="Bell" />
-                <img src="/assets/images/mainMenuIcons/Group 1000001733.svg" alt="Group" />
+                <button style="all: unset; position: relative;">
+                    <img id="account-button" src="/assets/images/mainMenuIcons/Group 1000001733.svg" alt="Group" />
+                    <div id="popup" style="display: none;">
+                        <div class="flex separator" style="gap: 10px; align-items: center; padding: 20px 10px 10px;">
+                            <img style="width: 40px;" src="/assets/images/mainMenuIcons/Group 1000001733.svg"
+                                alt="Group" />
+                            <div>
+                                <p style="font-size: 14px; font-weight: 600;">Ahmed Ali</p>
+                                <p style="font-size: 12px; color: var(--gary-400);">Student</p>
+                            </div>
+                        </div>
+                        <div class="flex separator popup-element">
+                            <img class="popup-element-img" src="/assets/images/userCircle.svg" alt="userCircle" />
+                            <p class="popup-element-text">My Profile</p>
+                        </div>
+                        <div class="flex popup-element" style="justify-content: space-between;">
+                            <div class="flex">
+                                <img class="popup-element-img" src="/assets/images/Moon.svg" alt="Moon" />
+                                <p class="popup-element-text">Dark Mode</p>
+                            </div>
+                            <div>
+                                <img src="/assets/images/Vector.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="flex popup-element" style="justify-content: space-between;">
+                            <div class="flex">
+                                <img class="popup-element-img" src="/assets/images/Translate.svg" alt="Translate" />
+                                <p class="popup-element-text">Language</p>
+                            </div>
+                            <div style="display: flex; gap: 5px;">
+                                <p style="font-family: cairo;font-size: 14px;">العربية</p>
+                                <img style="padding-left: 5px;border-left: 1px solid var(--gary-200); width: 23px;"
+                                    src="/assets/images/arabic.svg" alt="arabic">
+                            </div>
+                        </div>
+                        <div class="flex separator popup-element">
+                            <img class="popup-element-img" src="/assets/images/GearSix.svg" alt="GearSix" />
+                            <p class="popup-element-text">Account Settings</p>
+                        </div>
+                        <div class="flex popup-element">
+                            <img class="popup-element-img" src="/assets/images/SignOut.svg" alt="SignIn" />
+                            <p class="popup-element-text" style="color: var(--error-300);">Logout</p>
+                        </div>
+                    </div>
+                </button>
             </div>
         </div>
     </div>

@@ -37,6 +37,11 @@ $(document).ready(function () {
     return html;
   }
 
+  //*popup
+$(document).on('click', '#account-button', function() {
+  $('#popup').toggle();
+});
+
   var owl = $(".owl-carousel");
   owl.owlCarousel({
     autoWidth: false,

@@ -9,6 +9,7 @@
   --gary-800: #333333;
   --white: #ffffff;
   --warning-300: #ffcb31;
+  --error-300: #F56342;
   --radius-8: 8px;
 }
 
@@ -47,7 +48,6 @@ p {
   display: flex;
   align-items: center;
   box-shadow: 0px 4px 26px 0px #c8c8c88c;
-  overflow: hidden;
 }
 .main-menu {
   list-style: none;
@@ -386,4 +386,32 @@ button {
 }
 .mini-service-details .service-price-tag {
   width: 15px;
+}
+#account-button {
+  width: 33px;
+  position: relative;
+}
+#popup {
+  position: absolute;
+  right: 0;
+  background-color: var(--white);
+  box-shadow: #2020200d 7px -20px 40px 11px, #2020200d 8px 17px 40px 0px;
+  border-radius: var(--radius-8);
+  width: 320px;
+  z-index: 9999;
+}
+.separator {
+  border-bottom: 1px solid var(--gary-50);
+}
+.popup-element {
+  align-items: center;
+  padding: 10px 15px;
+}
+.popup-element-img {
+  width: 21px;
+  margin-right: 10px;
+}
+.popup-element-text {
+  font-size: 14px;
+  color: var(--gary-500);
 }
