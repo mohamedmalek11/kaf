@@ -79,20 +79,27 @@ p {
 .main-wrapper {
   display: flex;
   margin-top: 60px;
+  justify-content: space-between;
+  gap: 40px;
 }
 .main-content {
-  flex: 7;
-  width: 100%;
+  flex: 3;
+  width: 70%;
 }
 .side-content {
-  flex: 2;
-  margin-left: 40px;
+  flex: 1;
 }
 .m-16 {
   margin-bottom: 16px;
 }
+.m-20 {
+  margin-bottom: 20px;
+}
 .m-24 {
   margin-bottom: 24px;
+}
+.m-32 {
+  margin-bottom: 32px;
 }
 .m-40 {
   margin-bottom: 40px;
@@ -119,7 +126,7 @@ p {
 }
 .content-section {
   border-radius: 15px;
-  padding: 25px 15px;
+  padding: 25px 20px;
   background-color: var(--white);
   /* box-shadow: #2020200d 10px 3px 40px -5px, #2020200d -10px -3px 40px -5px; */
   box-shadow: #2020200d -15px -10px 40px -5px, #2020200d 16px 7px 40px -5px;
@@ -299,4 +306,84 @@ button {
   border-radius: 50%;
   width: 22px;
   aspect-ratio: 1;
+}
+.seller-personal-info > img {
+  width: 40px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.seller-personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seller-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: var(--gary-500);
+}
+.seller-rating-stars svg {
+  width: 18px;
+  margin-right: 3px;
+}
+.info-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.info-blocks img {
+  padding: 10px;
+  background-color: var(--gary-50);
+  border-radius: var(--radius-8);
+}
+.contact-me-button {
+  background-color: var(--primary-900);
+  color: var(--white);
+  border-radius: var(--radius-8);
+  padding: 10px 30px;
+  width: 100%;
+}
+.info-section {
+  display: flex;
+  justify-content: space-between;
+}
+.info-name-wrapper {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.share-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.mini-services {
+  border-radius: 15px;
+  background-color: var(--white);
+  box-shadow: #2020200d -15px -10px 40px -5px, #2020200d 16px 7px 40px -5px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.mini-services .service-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  aspect-ratio: 1;
+}
+.mini-service-details {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.service-details-title {
+  font-size: 12px;
+  font-weight: 500;
+}
+.mini-service-details .service-price-tag {
+  width: 15px;
 }
